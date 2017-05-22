@@ -1,0 +1,13 @@
+
+mongod 启动服务：
+	 mongod --dbpath=D:\mongoDB\Server\3.4\db
+	 该服务绑定 IP:127.0.0.1:990
+
+	 默认绑定 mongod
+	 该服务绑定 IP:127.0.0.1:27017
+      
+
+
+ 将mongodb作为服务安装启动
+
+mongod.exe --bind_ip 127.0.0.1 --logpath "D:\MongoDB\dbConf\mongodb.log" --logappend --dbpath "D:\MongoDB\db" --port 990 --serviceName "MongoDB_Test" --serviceDisplayName "MongoDB_Test2" --install
